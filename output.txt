@@ -1,0 +1,39 @@
+
++--------------------+----+----------+-----+--------------------+-----+--------------------+------+--------------------+
+|         business_id|cool|      date|funny|           review_id|stars|                text|useful|             user_id|
++--------------------+----+----------+-----+--------------------+-----+--------------------+------+--------------------+
+|iCQpiavjjPzJ5_3gP...|   0|2011-02-25|    0|x7mDIiDB3jEiPGPHO...|    2|The pizza was oka...|     0|msQe1u7Z_XuqjGoqh...|
+|pomGBqfbxcqPv14c3...|   0|2012-11-13|    0|dDl8zu1vWPdKGihJr...|    5|I love this place...|     0|msQe1u7Z_XuqjGoqh...|
+|jtQARsP6P-LbkyjbO...|   1|2014-10-23|    1|LZp4UX5zK3e-c5ZGS...|    1|Terrible. Dry cor...|     3|msQe1u7Z_XuqjGoqh...|
+|elqbBhBfElMNSrjFq...|   0|2011-02-25|    0|Er4NBWCmCD4nM8_p1...|    2|Back in 2005-2007...|     2|msQe1u7Z_XuqjGoqh...|
+|Ums3gaP2qM3W1XcA5...|   0|2014-09-05|    0|jsDu6QEJHbwP2Blom...|    5|Delicious healthy...|     0|msQe1u7Z_XuqjGoqh...|
+|vgfcTvK81oD4r50NM...|   0|2011-02-25|    0|pfavA0hr3nyqO61ou...|    1|This place sucks....|     2|msQe1u7Z_XuqjGoqh...|
+|AxeQEz3-s9_1TyIo-...|   0|2011-10-10|    0|brokEno2n7s4vrwmm...|    5|If you like Thai ...|     1|msQe1u7Z_XuqjGoqh...|
+|zdE82PiD6wquvjYLy...|   0|2012-04-18|    1|kUZWBVZvhWuC8TWUg...|    5|AMAZING!!!
+
+ I wa...|     0|msQe1u7Z_XuqjGoqh...|
+|EAwh1OmG6t6p3nRaZ...|   0|2011-02-25|    0|wcqt0III88LEcm19I...|    4|Ribs = amazing
+2 ...|     0|msQe1u7Z_XuqjGoqh...|
+|atVh8viqTj-sqDJ35...|   1|2012-11-09|    2|LWUtqzNthMM3vpWZI...|    2|Food is pretty go...|     1|msQe1u7Z_XuqjGoqh...|
+|yFumR3CWzpfvTH2FC...|   0|2016-06-15|    0|STiFMww2z31siPY7B...|    5|I have been an Em...|     0|TlvV-xJhmh7LCwJYX...|
+|UBv8heCQR0RPnUQG0...|   0|2016-09-23|    0|HkYqGb0Gplmmk-xlH...|    1|The score should ...|     0|NhOc64RsrTT1Dls50...|
+|hdgYnadxg0GANhWOJ...|   0|2014-08-23|    0|RgqWdZA4xR023iP3T...|    5|I went there twic...|     0|NhOc64RsrTT1Dls50...|
+|yEOu75XjwczngvWWl...|   0|2016-02-17|    0|-STQDcMcBcWX0H_Nr...|    4|Great for the pri...|     1|LKcdcMrq2xDzIThSH...|
+|f5O7v_X_jCg2itqac...|   0|2017-10-12|    0|kS4hrhEScwB9V5JAT...|    5|Sansotei serves s...|     0|hxqo4NyJFfeOmuoVi...|
+|XqNDr54eLDLRfZwo4...|   0|2015-09-22|    0|5um5SX-Lbgik5dwUG...|    4|Of the several pl...|     0|eG6HneK9zLcuZpVuK...|
+|0bjFYstj8USMzEV4Z...|   0|2017-01-19|    0|VKGvSe0SmYcFc5Pqj...|    5|Cool little place...|     0|eG6HneK9zLcuZpVuK...|
+|q0n4I-zqiI47xispO...|   0|2016-09-19|    0|M9gD64U797dfIpLA9...|    5|Delicious, friend...|     0|eG6HneK9zLcuZpVuK...|
+|alG1fb1kl2vmT8s34...|   1|2015-09-05|    1|eShfPWENUmZ9sP7fs...|    5|Great haircut, co...|     1|eG6HneK9zLcuZpVuK...|
+|gZGsReG0VeX4uKViH...|   0|2017-08-16|    0|51RHs_V_fjuistnuK...|    5|Finally! After tr...|     0|5ngpW5tf3ep680eG1...|
++--------------------+----+----------+-----+--------------------+-----+--------------------+------+--------------------+
+only showing top 20 rows
+
+
+Logistic Regression Accuracy Score (unigram)= 0.7429268292683
+Naive Bayes Accuracy Score (unigram)= 0.65853658536583
+
+Logistic Regression Accuracy Score (bigram):  0.813658536583
+Naive Bayes Accuracy Score (bigram)= 0.7312195121951
+
+Logistic Regression Accuracy Score (trigram):  0.8358536585366
+Naive Bayes Accuracy Score (trigram) = 0.724146341463417
