@@ -38,8 +38,7 @@ def remove_punct(text):
 sqlContext = SparkSession.builder.master("local[*]").getOrCreate()
 
 # load the csv file
-review  = sqlContext.read.format('com.databricks.spark.csv').options(header='true', inferschema='true').load('data_stop_word_removed.csv')
-#review  = sqlContext.read.format('com.databricks.spark.csv').options(header='true', inferschema='true').load('review.csv')
+review  = sqlContext.read.format('com.databricks.spark.csv').options(header='true', inferschema='true').load('review.csv')
 
 
 type (review)
