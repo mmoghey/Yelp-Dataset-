@@ -1,4 +1,4 @@
-# Yelp-Dataset-Sentiment Analysis-Star Prediction
+# Yelp-Dataset- Star Rating Prediction
 
 Dataset :
 
